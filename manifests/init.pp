@@ -1,3 +1,3 @@
 class mongodb {
-  include mongodb::install, mongodb::config, mongodb::service
+  include mongodb::params, mongodb::install, mongodb::config, mongodb::service
 }
